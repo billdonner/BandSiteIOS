@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		AD59676A23EA6DA100CD3E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD59676923EA6DA100CD3E4F /* AppDelegate.swift */; };
 		AD59676C23EA6DA100CD3E4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD59676B23EA6DA100CD3E4F /* SceneDelegate.swift */; };
 		AD59676E23EA6DA100CD3E4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD59676D23EA6DA100CD3E4F /* ViewController.swift */; };
-		AD59677123EA6DA100CD3E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD59676F23EA6DA100CD3E4F /* Main.storyboard */; };
 		AD59677323EA6DA100CD3E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD59677223EA6DA100CD3E4F /* Assets.xcassets */; };
 		AD59677623EA6DA100CD3E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD59677423EA6DA100CD3E4F /* LaunchScreen.storyboard */; };
 		AD59678123EA6DA200CD3E4F /* BandSiteIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD59678023EA6DA200CD3E4F /* BandSiteIOSTests.swift */; };
 		AD59678C23EA6DA200CD3E4F /* BandSiteIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD59678B23EA6DA200CD3E4F /* BandSiteIOSUITests.swift */; };
+		AD59679A23EA6DF100CD3E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD59679923EA6DF100CD3E4F /* Main.storyboard */; };
+		AD59679C23EA6E0800CD3E4F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD59679B23EA6E0800CD3E4F /* README.md */; };
+		AD59679F23EA6E3B00CD3E4F /* LinkGrubber in Frameworks */ = {isa = PBXBuildFile; productRef = AD59679E23EA6E3B00CD3E4F /* LinkGrubber */; };
+		AD5967A223EA6E7100CD3E4F /* BandSite in Frameworks */ = {isa = PBXBuildFile; productRef = AD5967A123EA6E7100CD3E4F /* BandSite */; };
+		AD5967A523EA6E8E00CD3E4F /* HTMLExtractor in Frameworks */ = {isa = PBXBuildFile; productRef = AD5967A423EA6E8E00CD3E4F /* HTMLExtractor */; };
+		AD5967A823EA6EC400CD3E4F /* URLSurfer in Frameworks */ = {isa = PBXBuildFile; productRef = AD5967A723EA6EC400CD3E4F /* URLSurfer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		AD59676923EA6DA100CD3E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD59676B23EA6DA100CD3E4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AD59676D23EA6DA100CD3E4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AD59677023EA6DA100CD3E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD59677223EA6DA100CD3E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD59677523EA6DA100CD3E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD59677723EA6DA100CD3E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		AD59678723EA6DA200CD3E4F /* BandSiteIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandSiteIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD59678B23EA6DA200CD3E4F /* BandSiteIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandSiteIOSUITests.swift; sourceTree = "<group>"; };
 		AD59678D23EA6DA200CD3E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD59679923EA6DF100CD3E4F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AD59679B23EA6E0800CD3E4F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5967A223EA6E7100CD3E4F /* BandSite in Frameworks */,
+				AD5967A523EA6E8E00CD3E4F /* HTMLExtractor in Frameworks */,
+				AD59679F23EA6E3B00CD3E4F /* LinkGrubber in Frameworks */,
+				AD5967A823EA6EC400CD3E4F /* URLSurfer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +89,7 @@
 		AD59675D23EA6DA100CD3E4F = {
 			isa = PBXGroup;
 			children = (
+				AD59679B23EA6E0800CD3E4F /* README.md */,
 				AD59676823EA6DA100CD3E4F /* BandSiteIOS */,
 				AD59677F23EA6DA200CD3E4F /* BandSiteIOSTests */,
 				AD59678A23EA6DA200CD3E4F /* BandSiteIOSUITests */,
@@ -102,7 +113,7 @@
 				AD59676923EA6DA100CD3E4F /* AppDelegate.swift */,
 				AD59676B23EA6DA100CD3E4F /* SceneDelegate.swift */,
 				AD59676D23EA6DA100CD3E4F /* ViewController.swift */,
-				AD59676F23EA6DA100CD3E4F /* Main.storyboard */,
+				AD59679923EA6DF100CD3E4F /* Main.storyboard */,
 				AD59677223EA6DA100CD3E4F /* Assets.xcassets */,
 				AD59677423EA6DA100CD3E4F /* LaunchScreen.storyboard */,
 				AD59677723EA6DA100CD3E4F /* Info.plist */,
@@ -144,6 +155,12 @@
 			dependencies = (
 			);
 			name = BandSiteIOS;
+			packageProductDependencies = (
+				AD59679E23EA6E3B00CD3E4F /* LinkGrubber */,
+				AD5967A123EA6E7100CD3E4F /* BandSite */,
+				AD5967A423EA6E8E00CD3E4F /* HTMLExtractor */,
+				AD5967A723EA6EC400CD3E4F /* URLSurfer */,
+			);
 			productName = BandSiteIOS;
 			productReference = AD59676623EA6DA100CD3E4F /* BandSiteIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -216,6 +233,12 @@
 				Base,
 			);
 			mainGroup = AD59675D23EA6DA100CD3E4F;
+			packageReferences = (
+				AD59679D23EA6E3B00CD3E4F /* XCRemoteSwiftPackageReference "LinkGrubber" */,
+				AD5967A023EA6E7100CD3E4F /* XCRemoteSwiftPackageReference "BandSite" */,
+				AD5967A323EA6E8E00CD3E4F /* XCRemoteSwiftPackageReference "HTMLExtractor" */,
+				AD5967A623EA6EC400CD3E4F /* XCRemoteSwiftPackageReference "URLSurfPicker" */,
+			);
 			productRefGroup = AD59676723EA6DA100CD3E4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,9 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD59679A23EA6DF100CD3E4F /* Main.storyboard in Resources */,
 				AD59677623EA6DA100CD3E4F /* LaunchScreen.storyboard in Resources */,
+				AD59679C23EA6E0800CD3E4F /* README.md in Resources */,
 				AD59677323EA6DA100CD3E4F /* Assets.xcassets in Resources */,
-				AD59677123EA6DA100CD3E4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD59676F23EA6DA100CD3E4F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD59677023EA6DA100CD3E4F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD59677423EA6DA100CD3E4F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -590,6 +606,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD59679D23EA6E3B00CD3E4F /* XCRemoteSwiftPackageReference "LinkGrubber" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/billdonner/LinkGrubber.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.34;
+			};
+		};
+		AD5967A023EA6E7100CD3E4F /* XCRemoteSwiftPackageReference "BandSite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/billdonner/BandSite.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.41;
+			};
+		};
+		AD5967A323EA6E8E00CD3E4F /* XCRemoteSwiftPackageReference "HTMLExtractor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/billdonner/HTMLExtractor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.6;
+			};
+		};
+		AD5967A623EA6EC400CD3E4F /* XCRemoteSwiftPackageReference "URLSurfPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/billdonner/URLSurfPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD59679E23EA6E3B00CD3E4F /* LinkGrubber */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD59679D23EA6E3B00CD3E4F /* XCRemoteSwiftPackageReference "LinkGrubber" */;
+			productName = LinkGrubber;
+		};
+		AD5967A123EA6E7100CD3E4F /* BandSite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD5967A023EA6E7100CD3E4F /* XCRemoteSwiftPackageReference "BandSite" */;
+			productName = BandSite;
+		};
+		AD5967A423EA6E8E00CD3E4F /* HTMLExtractor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD5967A323EA6E8E00CD3E4F /* XCRemoteSwiftPackageReference "HTMLExtractor" */;
+			productName = HTMLExtractor;
+		};
+		AD5967A723EA6EC400CD3E4F /* URLSurfer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD5967A623EA6EC400CD3E4F /* XCRemoteSwiftPackageReference "URLSurfPicker" */;
+			productName = URLSurfer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AD59675E23EA6DA100CD3E4F /* Project object */;
 }
